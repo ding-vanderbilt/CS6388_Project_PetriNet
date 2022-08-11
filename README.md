@@ -85,9 +85,9 @@ Then the `webgme-setup.json` file and the `config\config.webgme.js` file are edi
 
 With all these steps taken, after starting the WebGME and navigating to `http://localhost:8888`, we can create a new project using the `PetriNetDing` seed. 
 
-The following is a video that shows how to create a new project using the newly added `PetriNetDing` seed. After creating a new projet with the seed, you can find the metamodel defination and some examples that I have created using the metamodel for other sections.
+The following is a video that shows how to create a new project using the newly added `PetriNetDing` seed. After creating a new projet with the seed, you can find the metamodel defination and some examples that I have created using the metamodel for other sections. A HD version of the video can be found [here](https://youtu.be/b19kr4AfcSc)
 
-![seed](ref/seed.gif)
+https://user-images.githubusercontent.com/83924422/184184221-6ec23cf4-d370-4a4a-bf8c-45e20eb158c5.mov
 
 ## Writing interpretation
 
@@ -144,9 +144,10 @@ After running the plugin, the testing results will be available in the notificat
 
 ### Demo the plugin
 
-The following is a video showing running the `ClassifyPetriDing` plugin with examples of different types of PetriNet and the tesing results.
+The following is a video showing running the `ClassifyPetriDing` plugin with examples of different types of PetriNet and the tesing results. A HD version of the video can be found [here](https://youtu.be/PAEd1SNHpCw).
 
-![plugin_demo](ref/plugin_demo.gif)
+https://user-images.githubusercontent.com/83924422/184184351-785fa65c-2212-4839-af34-e2dfb59d282a.mov
+
 
 ## Creating simulation
 
