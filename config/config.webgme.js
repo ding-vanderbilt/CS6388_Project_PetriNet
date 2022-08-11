@@ -9,7 +9,7 @@ var config = require('webgme/config/config.default'),
 // The paths can be loaded from the webgme-setup.json
 config.plugin.basePaths.push(__dirname + '/../src/plugins');
 config.seedProjects.basePaths.push(__dirname + '/../src/seeds/StateMachine');
-
+config.seedProjects.basePaths.push(__dirname + '/../src/seeds/PetriNetDing');
 
 
 config.visualization.panelPaths.push(__dirname + '/../src/visualizers/panels');

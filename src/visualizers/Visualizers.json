@@ -4,5 +4,11 @@
     "title": "SimSM",
     "panel": "panels/SimSM/SimSMPanel",
     "DEBUG_ONLY": false
+  },
+  {
+    "id": "SimPetriDing",
+    "title": "SimPetriDing",
+    "panel": "panels/SimPetriDing/SimPetriDingPanel",
+    "DEBUG_ONLY": false
   }
 ]

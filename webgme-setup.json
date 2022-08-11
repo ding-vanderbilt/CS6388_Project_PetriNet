@@ -7,17 +7,32 @@
         "panel": "src/visualizers/panels/SimSM",
         "secondary": false,
         "widget": "src/visualizers/widgets/SimSM"
+      },
+      "SimPetriDing": {
+        "src": "panels/SimPetriDing/SimPetriDingPanel",
+        "title": "SimPetriDing",
+        "panel": "src/visualizers/panels/SimPetriDing",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/SimPetriDing"
       }
+      
     },
     "plugins": {
       "ReachCheck": {
         "src": "src/plugins/ReachCheck",
         "test": "test/plugins/ReachCheck"
+      },
+      "ClassifyPetriDing": {
+        "src": "src/plugins/ClassifyPetriDing",
+        "test": "test/plugins/ClassifyPetriDing"
       }
     },
     "seeds": {
       "StateMachine": {
         "src": "src/seeds/StateMachine"
+      },
+      "PetriNetDing": {
+        "src": "src/seeds/PetriNetDing"
       }
     }
   },
