@@ -12,7 +12,7 @@ Based on the [project description](ref/Miniproject_MIC_2022Su.pdf), there are fo
 
 ## Environment Setup
 
-In order to successfully run the WebGME application, we would need to set up a WebGME development environment. The WebGME development environment can be a fully docker based environment or a local environment on the physical machine. In my case, I use the local environment since I encountered some issues installing the `webgme` cli with the docker based environment. For those who are interested in running with the  docker based environment, our instructor Tamas Kecskes also created a [WDeStuP](https://github.com/kecso/WDeStuP) repo for this.
+In order to successfully run the WebGME application, we would need to set up a WebGME development environment. The WebGME development environment can be a fully docker based environment or a local environment on the physical machine. In my case, I use the local environment since I encountered some issues installing the `webgme` cli with the docker based environment. Another reason is for easy debugging. With the local environment, edits can be easily tested and represented in the running WebGME application. While with the docker based environment, the image has to be rebuilt in order to get the most recent updates and each build can take up to a few minutes to complete, which greatly slows down the overall processes. There should exist some way to have the docker image use some shared file location which will make the process a lot easier. For those who are interested in running with the  docker based environment, our instructor Tamas Kecskes also created a [WDeStuP](https://github.com/kecso/WDeStuP) repo for this.
 
 The following are the steps that I have taken to install the WebGME development environment on my machine.
 
@@ -174,4 +174,4 @@ The application is going to create a folder `SimPetriDing` under the `src\widget
 
 ### Editing the visualization (unable to complete)
 
-To create the simulation visualization as that with the StateMachineJoint, the key is to edit `src/visualizers/panels/SimPetriDing/SimPetriDingControl.js` and `src/visualizers/widgets/SimPetriDing/SimPetriDingWidget.js`. Due to my lack of experience in javascripts, I was unable to complete this part after several failed attempts. 
+To create the simulation visualization as that with the StateMachineJoint, the key is to edit `src/visualizers/panels/SimPetriDing/SimPetriDingControl.js` and `src/visualizers/widgets/SimPetriDing/SimPetriDingWidget.js`. Due to my lack of experience in javascripts and overall time constraints, I was unable to complete this part after several failed attempts. 
